@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    width: 1488px
 }
 
 .background{
@@ -10,9 +11,10 @@ body{
 #navigation{
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
     background-color:#ffffff;
     border-bottom: 2px solid #dddddd; 
-    justify-content: space-between;
+    
 }
 
 #name1{
@@ -66,8 +68,7 @@ h1{
     border-top:8px solid #4aaaa5;
     color: lightgray;
     font-size: 12px;
-    height: 60px;
-    
+    height: 60px;    
 }
 
 #footer{
