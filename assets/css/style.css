@@ -1,6 +1,10 @@
 body{
-    margin:0px;
-    background-image:url(../images/rock.png);  
+    margin: 0;
+}
+
+.background{
+    background-image:url(../images/rock.png);
+    padding-bottom: 30px;
 }
 
 #navigation{
@@ -8,12 +12,11 @@ body{
     flex-direction:row;
     background-color:#ffffff;
     border-bottom: 2px solid #dddddd; 
-    margin-bottom:40px;
     justify-content: space-between;
 }
 
 #name1{
-    color:white;
+    color: white;
     font-size:25px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
@@ -49,27 +52,26 @@ li{
 h1{
     display: flex;
     justify-content: flex-start;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: solid #dddddd;
     color:#4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .footer {
-    position: fixed;
-    bottom: 10px;
+    bottom:0;
     width: 100%;
+    left: 0;
     background-color: #666666;
     border-top:8px solid #4aaaa5;
     color: lightgray;
-    font-size: 12px; 
+    font-size: 12px;
+    height: 60px;
     
 }
+
 #footer{
     display: flex;
     justify-content: baseline;
     padding-top: 25px;
 }
-
-
-
