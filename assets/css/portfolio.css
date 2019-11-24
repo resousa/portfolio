@@ -10,3 +10,104 @@
     margin-right: auto;
     margin-bottom:  40px;
 }
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+#word{
+    position: relative;
+    text-align:center;
+}
+#word1{
+  position: absolute;
+  color:#ffffff;
+  background:#4aaaa5;
+  font-family:'Georgia', Times, 'Times New Roman', serif;
+  font-size: large;
+  width:300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: 67%;
+}
+
+#RPG{
+    position: relative;
+    text-align:center;
+}
+
+#RPG1{
+  position: absolute;
+  color:#ffffff;
+  background:#4aaaa5;
+  font-family:'Georgia', Times, 'Times New Roman', serif;
+  font-size: large;
+  width:300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: 67%
+}
+
+#triv{
+    position: relative;
+    text-align:center;
+}
+
+#trivia1{
+    position: absolute;
+    color:#ffffff;
+    background:#4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-size: large;
+    width:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 67%;
+}
+
+#widget{
+    position: relative;
+    text-align:center;
+}
+
+#widget1{
+  position: absolute;
+  color:#ffffff;
+  background:#4aaaa5;
+  font-family:'Georgia', Times, 'Times New Roman', serif;
+  font-size: large;
+  width:300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: 67%
+}
+
+#roshambo{
+    position: relative;
+    text-align:center;
+}
+
+#roshambo1{
+  position: absolute;
+  color:#ffffff;
+  background:#4aaaa5;
+  font-family:'Georgia', Times, 'Times New Roman', serif;
+  font-size: large;
+  width:300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: 67%
+}
